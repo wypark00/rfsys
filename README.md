@@ -14,7 +14,7 @@ Date: May 20, 2020.
 
 ### Download
 
-- Right click *gensysx.m* above and choose "Save the link as..."
+- Right click *gensysx.m* above and choose "Save the link as..." or click the green "Code" button on the top to download everything.
 - [An example of system reduction described in Lee and Park (2020b)](/efflkh/gensysx)
 
 ## rfsys
@@ -29,7 +29,7 @@ Date: May 20, 2020.
 
 ### Download
 
-- Right click *rfsys.m* above and choose "Save the link as..."
+- Right click *rfsys.m* above and choose "Save the link as..." click the green "Code" button on the top to download everything.
 - [An example of system reduction described in Lee and Park (2020b)](/efflkh/rfsys)
 
 ## References
