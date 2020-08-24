@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Codes to solve a linear rational expectations model
 
-You can use the [editor on GitHub](https://github.com/wypark00/rfsys/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## gensysx
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*gensysx* solves a linear rational expectations model using the ordinary Schur decomposition when the model is invertible (non-singular) and the QZ (generalized Schur) decomposition when the model is not invertible (singular). 
 
-### Markdown
+**Note that the order of outputs has changed from that of original gensys by Chris Sims.**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Date: May 20, 2020.
 
-```markdown
-Syntax highlighted code block
+### Update (August 1, 2020)
 
-# Header 1
-## Header 2
-### Header 3
+*gensysx* now returns the intermediate outputs if `zy=false` for efficient evaluation of the likelihood of a linear DSGE model. If `zy=false`, a real form of the Schur decomposition or the QZ decomposition is used and the solution only for the stable block is returned. If you want *gensysx* to return the solution for the whole vector of the endogenous variables, set `zy=true`.
 
-- Bulleted
-- List
+### Download
 
-1. Numbered
-2. List
+- Right click *gensysx.m* above and choose "Save the link as..." or click the green "Code" button on the top to download everything.
+- [An example of system reduction described in Lee and Park (2020b)](/efflkh/gensysx)
 
-**Bold** and _Italic_ and `Code` text
+## rfsys
 
-[Link](url) and ![Image](src)
-```
+*rfsys* solves a reduced-form linear rational expectations model using the ordinary Schur decomposition. The code is optimized to take advantage of the ordinary Schur decomposition.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Date: May 20, 2020.
 
-### Jekyll Themes
+### Update (August 1, 2020)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wypark00/rfsys/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+*rfsys* now returns the intermediate outputs if `zy=false` for efficient evaluation of the likelihood of a linear DSGE model. If `zy=false`, the solution only for the stable block is returned. If you want *rfsys* to return the solution for the whole vector of the endogenous variables, set `zy=true`.
 
-### Support or Contact
+### Download
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Right click *rfsys.m* above and choose "Save the link as..." click the green "Code" button on the top to download everything.
+- [An example of system reduction described in Lee and Park (2020b)](/efflkh/rfsys)
+
+## References
+
+- Lee and Park, 2020a, "[Solving Reduced-form Linear Rational Expectations Models](https://drive.google.com/file/d/1cRdCQWVO3J1u7F06hJ0WMrWdZh_T6gQT/view?usp=sharing)," Working paper.
+- Lee and Park, 2020b, "An Efficient Likelihood Evaluation of Dynamic Stochastic General Equilibrium Models," Working paper.
+- Sims, 2002, "[Solving Linear Rational Expectations Models](https://doi.org/10.1023/A:1020517101123)," *Computational Economics*, 20(1-2), 1-20.
