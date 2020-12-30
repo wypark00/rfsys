@@ -35,5 +35,5 @@ Date: May 20, 2020.
 ## References
 
 - Lee and Park, 2020a, "[Solving Reduced-form Linear Rational Expectations Models](https://drive.google.com/file/d/1cRdCQWVO3J1u7F06hJ0WMrWdZh_T6gQT/view?usp=sharing)," Working paper.
-- Lee and Park, 2020b, "[An Efficient Likelihood Evaluation of Dynamic Stochastic General Equilibrium Models Solved by gensys](https://drive.google.com/file/d/19ZUiUBPO1v_ZO0r1Y310F5LGkuX5rah5/view?usp=sharing)," Working paper.
+- Lee and Park, 2020b, "[System reduction of Dynamic Stochastic General Equilibrium Models Solved by gensys](https://drive.google.com/file/d/1aY3C_dS0Ci9N4ANAb6bIj19oju_f3sBT/view?usp=sharing)," forthcoming at *Economics Letters*.
 - Sims, 2002, "[Solving Linear Rational Expectations Models](https://doi.org/10.1023/A:1020517101123)," *Computational Economics*, 20(1-2), 1-20.
