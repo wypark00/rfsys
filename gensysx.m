@@ -1,6 +1,6 @@
 function [G1,C,impact,gev,eu,z,loose,fywt]=gensysx(g0,g1,c,psi,ppi,div,zy)
 %
-% gensys2 solves a linear rational expectations model in discrete
+% gensysx solves a linear rational expectations model in discrete
 % time. It uses the Schur decomposition when the model is invertible
 % to a reduced form but uses the QZ decomposition when the model is not
 % invertible to a reduced form. This program uses the same code for
